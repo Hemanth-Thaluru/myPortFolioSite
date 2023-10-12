@@ -1,6 +1,5 @@
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 
@@ -23,7 +22,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Angular /Reactjs / Nodejs / .NET and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1UyGLN8F1MJdUKolTs66Nv0lWOS_a6vLG/view?usp=drive_link", 
+    "https://drive.google.com/file/d/1UyGLN8F1MJdUKolTs66Nv0lWOS_a6vLG/view?usp=drive_link",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -33,7 +32,7 @@ const socialMediaLinks = {
   github: "https://github.com/Hemanth-Thaluru",
   linkedin: "https://www.linkedin.com/in/hemanththaluru/",
   leetcode: "https://leetcode.com/hemanththaluru/",
-  kaggle:"https://www.kaggle.com/thaluruhemanth",
+  kaggle: "https://www.kaggle.com/thaluruhemanth",
   medium: "https://medium.com/@canhemanth",
   gmail: "hemanththaluru7@gmail.com",
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -126,16 +125,14 @@ const educationInfo = {
       subHeader: "Master of Science in Data Science",
       duration: "January 2023 - May 2024",
       desc: "Took Course work on",
-      descBullets: [
-        "Databases, AI, ML, Deep Learning"
-      ]
+      descBullets: ["Databases, AI, ML, Deep Learning"]
     },
     {
       schoolName: "Sastra University",
       logo: require("./assets/images/sastra_logo.png"),
       subHeader: "Bachelor of Technology in Mechanical Enineering",
       duration: "August 2017 - June 2021",
-      desc: "Ranked top 10% in the program. ",
+      desc: "Ranked top 10% in the program. "
       // descBullets: [""]
     }
   ]
@@ -186,7 +183,7 @@ const workExperiences = {
       companylogo: require("./assets/images/cognizant.png"),
       date: "March 2021 – April 2022",
       desc: "Developed RESTful APIs using ASP.NET Web API to improve system communication and enhance data accessibility"
-    },
+    }
   ]
 };
 
@@ -342,9 +339,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-
-  ],
+  podcast: [],
   display: false // Set false to hide this section, defaults to true
 };
 
